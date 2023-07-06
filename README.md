@@ -13,6 +13,9 @@ ABCN Blockchain is released under the terms of the **GNU license**. See [COPYING
 information.
 
 
+Check out Installation Doc here at [INSTALL](INSTALL.md).
+
+
 
 ### Network Specs
 | **Coin Head**               | **Value**        |
