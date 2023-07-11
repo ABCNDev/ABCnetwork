@@ -27,7 +27,7 @@ or (if running testnet)
 
 ## 2.2 Download TestNet Genesis File:
 ```sh
-wget https://github.com/ABCNDev/ABCnetwork/releases/download/v1.0/ace_blockchain_crypto_network.json
+wget https://github.com/ABCNDev/ABCnetwork/releases/download/v1.0/ace_blockchain_crypto_network_testnet.json
 ```
 
 
@@ -50,7 +50,7 @@ geth --datadir "/root/.abcnTN" init ace_blockchain_crypto_network_testnet.json
 
 ## 4.1 Running ABCN MainNet:
 ```sh
-screen geth --datadir "/root/.abcn" --networkid 6198  --port 6755 --syncmode 'full' --bootnodes enode://db2f8c313d77235ea36cdd09092cdce4a7c2ace6da6946b5e3f5a253524a851f6ce60b5388c76d804bfac9556c5248af64934ec53466a2edec2d56b6a3860cbe@139.177.194.24:6755 2>>/root/.abcn/chain.log &
+screen geth --datadir "/root/.abcn" --networkid 6198  --port 6755 --syncmode 'full' --bootnodes enode://fd015398dbadfcdbb3b99bebe062ca71eb0d2d654bac31a1194c603ac5fe20b4fdcadb87fa1e7a6232eebaf66dead928afe61d098419ae0b9ea99837d6b6b4d4@139.177.194.24:6755 2>>/root/.abcn/chain.log &
 ```
 
 or (if running testnet)
@@ -58,7 +58,7 @@ or (if running testnet)
 
 ## 4.2 Running ABCN TestNet:
 ```sh
-screen geth --datadir "/root/.abcnTN" --networkid 16198  --port 16755 --syncmode 'full' --bootnodes enode://a9d9b2b1a98c333df8b58a8f40d464f35a22defbf89775f438f8810fcd01be7e9442199e797ff7f6e84da4beccd3cf927801d704082d012a9647a930179b5dc9@172.104.216.154:16755  2>>/root/.abcnTN/chain.log &
+screen geth --datadir "/root/.abcnTN" --networkid 16198  --port 16755 --syncmode 'full' --bootnodes enode://fd348693a308eeb599a13a26a2f5244b6d46913688727cc649e2d23bbf28fdf2e43dcc506c544cc596bf1963c4e9cf079d782813084b745aab31ac8d1a6e2298@172.104.216.154:16755 2>>/root/.abcnTN/chain.log &
 ```
 
 
